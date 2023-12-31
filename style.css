@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+}
+.cotiner{
+    background-color: rgba(0,0,0,0.05);
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    margin: auto;
+    padding: 30px;
+
+}
+input{
+    height: 30px;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 10px;
+    pointer:cursor;
+}
+
+p{
+    color: red;
+}
+
+#submit{
+    padding: 5px;
+    margin:  10px auto;
+    height: 30px;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    background:rgba(0,0,0,0.05);
+
+}
+#submit:hover{
+    background:rgba(0,0,0,0.2);
+    box-shadow: 0 0 20px rgba(0,0,0,0.4);
+    cursor: pointer;
+}
+
+
+
+ 

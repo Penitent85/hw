@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div >
+        <form action="index.html" class="cotiner">
+            <!-- name -->
+            <label for="nameinput">Name:</label>
+            <input type="text"  id="nameinput" onkeyup="nameFun()">
+            <p id="name"></p>
+            <!-- email -->
+            <label for="emailinput">Email:</label>
+            <input type="email" id="emailinput" onkeyup="mailFun()" >
+            <p id="email"></p>
+            <!-- password -->
+            <label for="passinput">Password:</label>
+            <input type="password"  id="passinput" onkeyup="passFun()">
+            <p id="password"></p>
+            <!-- confirm password -->
+            <label for="conpassinput">Confirm Password:</label>
+            <input type="password"  id="conpassinput" onkeyup="conPassFun()">
+            <p id="confirm-password"></p>
+            <!-- submit -->
+            <input type="submit" onclick="submitFun()" id="submit">
+            <p id="sub" class="select"></p>
+            </form>
+
+    </div>
+       
+
+<script src="/main.js"></script>    
+</body>
+</html>
